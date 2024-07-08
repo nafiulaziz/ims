@@ -1,0 +1,93 @@
+body
+{
+    font-family: Arial;
+}
+div.header
+{
+    width: 100%;
+    background: #f685a1;
+    padding: 20px 0px;
+    text-align: right;
+}
+
+div.header a
+{
+    background-color: #3d0039;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div.header a:hover
+{
+    border-radius: 5px;
+    border-bottom: 2px solid #3d0039;
+}
+
+div.banner
+{
+    background: url(inv3.jpeg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.homepageContainer
+{
+    width: 100%;
+    max-width: 900px;
+    height: 57vh;
+    margin: 0 auto;
+}
+
+div.homepageContainer2
+{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.bannerheader h1
+{
+    font-weight: bold;
+    font-size: 100px;
+    color:#3d0039;
+    line-height: 100%;
+}
+
+div.bannerheader p
+{
+    font-weight: bold;
+    font-size: 45px;
+    color:  #ffdae3;
+    text-transform: uppercase;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+p.bannerTagline
+{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+div.bottom-bar
+{
+  background: #f685a1;
+  text-align: center;
+  padding: 15px ;
+}
+
+div.bottom-bar p
+{
+  color: #fff;
+  margin: 0;
+  font-size: 1em;
+  padding: 7px;
+}
+

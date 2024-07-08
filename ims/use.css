@@ -1,0 +1,200 @@
+#dashMain
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashslide
+{
+    width: 18%;
+    background: #323232;
+    height: 99vh;
+}
+
+h3.dashlogo
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f685a1;
+    font-size: 80px;
+    text-align: center ;
+}
+
+div.dashslide_user
+{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+div.dashslide_user img
+{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #f685a1;
+    margin-right: 5px;
+}
+
+div.dashslide_user span
+{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+ul.dashmenu_list
+{
+    margin-top: 15px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+ul.dashmenu_list li
+{
+    padding: 15px 0px;
+}
+
+ul.dashmenu_list li:hover
+{
+    background: #f685a1;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+ul.dashmenu_list li.menuAction
+{
+    background: #f685a1;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+
+ul.dashmenu_list li a
+{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+div.dash_content_container
+{
+    width: 82%;
+    height: 99vh;
+    background: #f4f6f9;
+}
+
+div.dash_topNav
+{
+  background: #fff;
+  padding: 20px;
+}
+
+div.dash_topNav a
+{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#logoutBtn
+{
+    width: 4.5%;
+    float: right;
+    background-color: #3d0039;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a#logoutBtn:hover
+{
+    border-radius: 5px;
+    border-bottom: 2px solid #3d0039;
+}
+
+div.dash_content
+{
+    padding: 50px 10px 10px 10px;
+}
+
+div.dash_content_main
+{
+    background: #fff;
+    height: 84vh;
+}
+
+
+div.nav
+{
+    background: #552b35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul.subM li
+{
+    list-style-type: circle;
+    padding-inline-start: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul.subM li.menuAct
+{
+    background: #f685a1;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+div.userform
+{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+h1.sechead
+{
+    background-color: #302b2b;
+    font-size: 2.5em;
+    color: #f685a1;
+    border-bottom: 3px solid #ffd7e1;
+    padding: 10px;
+    border-left: 3px solid #FFC0CB;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC0CB;
+}
+
+.action-buttons {
+    text-align: left;
+}
+
+ .delete-btn {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+}

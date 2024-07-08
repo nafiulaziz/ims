@@ -1,0 +1,163 @@
+*
+{
+    box-sizing: border-box;
+}
+#dashMain
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashslide
+{
+    width: 18%;
+    background: #323232;
+    height: 99vh;
+}
+
+h3.dashlogo
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f685a1;
+    font-size: 80px;
+    text-align: center ;
+}
+
+div.dashslide_user
+{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+div.dashslide_user img
+{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #f685a1;
+    margin-right: 5px;
+}
+
+div.dashslide_user span
+{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+ul.dashmenu_list
+{
+    margin-top: 15px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+ul.dashmenu_list li
+{
+    padding: 15px 0px;
+}
+
+ul.dashmenu_list li:hover
+{
+    background: #f685a1;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+ul.dashmenu_list li.menuAction
+{
+    background: #f685a1;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+
+ul.dashmenu_list li a
+{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+div.dash_content_container
+{
+    width: 82%;
+    height: 99vh;
+    background: #f4f6f9;
+}
+
+div.dash_topNav
+{
+  background: #fff;
+  padding: 20px;
+}
+
+div.dash_topNav a
+{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#logoutBtn
+{
+    width: 4.5%;
+    float: right;
+    background-color: #3d0039;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a#logoutBtn:hover
+{
+    border-radius: 5px;
+    border-bottom: 2px solid #3d0039;
+}
+
+div.dash_content
+{
+    padding: 50px 10px 10px 10px;
+}
+
+div.dash_content_main
+{
+    align-items: center;
+    background: #fff;
+    height: 87vh;
+}
+
+.content
+{
+   position: relative;
+   min-height: 29vh;
+}
+
+.content .cards
+{ 
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .cards .card
+{
+    width: 250px;
+    height: 150px;
+    background: #3d0039;
+    color: #fff;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
